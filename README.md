@@ -13,7 +13,7 @@ PHP MySQL CRUD Application using jQuery Ajax and Bootstrap
 - create table using given below sql statement
 
 ```sh
-CREATE TABLE `players` (
+CREATE TABLE `friends` (
  `id` int(11) NOT NULL AUTO_INCREMENT,
  `pname` varchar(50) NOT NULL,
  `email` varchar(100) NOT NULL,
@@ -30,6 +30,6 @@ Run the localhost (Apache service)
 point to the:
 
 ```sh
-http://localhost/phpcrudajax
+https://myphonebooks.herokuapp.com
 
 ```
