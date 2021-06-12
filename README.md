@@ -30,6 +30,6 @@ Run the localhost (Apache service)
 point to the:
 
 ```sh
-http://localhost/phpcrudajax
+https://myphonebooks.herokuapp.com
 
 ```
