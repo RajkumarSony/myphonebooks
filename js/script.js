@@ -65,7 +65,7 @@ function getplayers() {
         });
         $("#userstable tbody").html(playerslist);
         let totalPlayers = rows.count;
-        let totalpages = Math.ceil(parseInt(totalPlayers) / 4);
+        let totalpages = Math.ceil(parseInt(totalPlayers) / 6);
         const currentpage = $("#currentpage").val();
         pagination(totalpages, currentpage);
         $("#overlay").fadeOut();
