@@ -139,7 +139,7 @@ class Player extends Database
         return $result;
     }
 
-    public function searchPlayer($searchText, $start = 0, $limit = 4)
+    public function searchPlayer($searchText, $start = 0, $limit = 6)
     {
         $sql = "SELECT * FROM {$this->tableName} WHERE pname LIKE :search ORDER BY id DESC LIMIT {$start},{$limit}";
         $stmt = $this->conn->prepare($sql);
